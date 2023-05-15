@@ -1,0 +1,84 @@
+<app-headermaster></app-headermaster>
+
+<ion-content [fullscreen]="true" class="fondoBlue">
+  <ion-toolbar class="fondoBlueHard">
+    <ion-item slot="start">
+      <ion-avatar>
+        <ion-buttons (click)="alertaRojo()">
+          <ion-img src="assets/icon/redButton.png" class="botonR"></ion-img>
+        </ion-buttons>
+      </ion-avatar>
+    </ion-item>
+    <ion-label class="labelCuadro">000</ion-label>
+
+    <ion-label class="letraChica">Orden</ion-label>
+
+    <ion-label class="letraMedia">000000000</ion-label>
+
+    <ion-avatar slot="end" class="avatarDch">
+      <ion-label class="letraChica">Inicio</ion-label>
+
+      <ion-label class="letraMedia">00:00</ion-label>
+    </ion-avatar>
+  </ion-toolbar>
+
+  <ion-toolbar class="fondoBlueHard">
+    <ion-item slot="start" class="ajusteItem">
+      <ion-avatar slot="start">
+        <ion-label class="letraMedia">Linea</ion-label>
+      </ion-avatar>
+      <ion-avatar slot="start" class="avatarLinea">
+        <ion-label class="letraLinea">Nombre de Linea</ion-label>
+      </ion-avatar>
+    </ion-item>
+    <ion-avatar slot="end">
+      <ion-buttons (click)="alertaReturn()">
+        <ion-img id="reAsignRepa" src="assets/icon/return.png" class="botonReturn">
+        </ion-img>
+      </ion-buttons>
+    </ion-avatar>
+  </ion-toolbar>
+
+
+  <ion-list class="listaAct">
+    <ion-item class="itemRow">
+      <ion-avatar slot="start">
+        <ion-img id="imgEL" src="assets/icon/handGreenOption.png" class="imgLogoGreen">
+        </ion-img>
+      </ion-avatar>
+      <ion-label class="letraGrande">En Línea</ion-label>
+      <ion-avatar slot="end" class="avaterDchAlert">
+        <ion-img id="reAsignRepa" src="assets/icon/Alert.png" class="imgAlert"></ion-img>
+      </ion-avatar>
+      <ion-label slot="end" class="msjAlert">{{textAlert}}</ion-label>
+    </ion-item>
+
+    <ion-item class="itemRow">
+      <ion-avatar slot="start">
+        <ion-img id="imgFI" src="assets/icon/handGreenOption.png" class="imgLogoGreen">
+        </ion-img>
+      </ion-avatar>
+      <ion-label class="letraGrande">Falla identificada</ion-label>
+      <ion-avatar slot="end">
+        <ion-img id="reAsignFalla" src="assets/icon/reAsign.png">
+        </ion-img>
+      </ion-avatar>
+    </ion-item>
+
+    <ion-item class="itemRow">
+      <ion-avatar slot="start">
+        <ion-img id="imgR" src="assets/icon/handGreenOption.png" class="imgLogoGreen">
+        </ion-img>
+      </ion-avatar>
+      <ion-label class="letraGrande">Reparado</ion-label>
+      <ion-avatar slot="end">
+        <ion-img id="reAsignRepa" src="assets/icon/reAsign.png">
+        </ion-img>
+      </ion-avatar>
+    </ion-item>
+
+
+  </ion-list>
+
+
+</ion-content>

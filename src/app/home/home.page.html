@@ -1,0 +1,47 @@
+<app-headermaster></app-headermaster>
+
+<ion-content [fullscreen]="true" class="fondoBlue">
+  <ion-toolbar class="fondoBlueHard">
+    <ion-item slot="start">
+      <ion-title class="letraFiltros">Sin atender</ion-title>
+    </ion-item>
+    <ion-item class="ion-justify-content-center ion-align-items-center">
+      <ion-buttons (click)="toggleLike()" class="botonF">
+        <ion-img src="assets/icon/FiltroSinA.png" *ngIf="!isLiked" class="botonF"></ion-img>
+        <ion-img src="assets/icon/FiltroA.png" *ngIf="isLiked" class="botonF"></ion-img>
+      </ion-buttons>
+    </ion-item>
+    <ion-item slot="end">
+      <ion-title class="letraFiltros">Atendiendo</ion-title>
+    </ion-item>
+    <hr class="ion-margin-top black-line">
+  </ion-toolbar>
+
+  <ion-list class="listaBase">
+    <ion-item *ngFor="let orden of listaOrdenes" class="renglonLista">
+      
+      <ion-buttons (click)="toggleLike()">
+        <ion-avatar slot="start" class="avatarIzq">
+          <ion-img [src]="orden.Icono" class="iconosLista">
+          </ion-img>
+        </ion-avatar>
+        <ion-label class="letraMedia">{{orden.Linea}}</ion-label>
+      </ion-buttons>
+      
+      <ion-avatar slot="end" class="avatarDchAnt">
+        <ion-list class="listaBase">
+          <ion-label class="letraChica">Atiende</ion-label>
+          <ion-label class="letraChica">Inicio: 00:00</ion-label>
+        </ion-list>
+      </ion-avatar>
+      
+      <ion-avatar slot="end" class="avatarDch">
+        <ion-list class="listaBase">
+          <ion-label class="labelCuadro">000</ion-label>
+          <ion-label class="letraChica">{{orden.NumOrden}}</ion-label>
+        </ion-list>
+      </ion-avatar>
+
+    </ion-item>
+  </ion-list>
+</ion-content>

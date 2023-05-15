@@ -1,0 +1,52 @@
+.fondo {
+    --background: rgb(33, 76, 91);
+    --display: flex;
+    --justify-content: center;
+    --align-items: center;
+    --height: 100vh;
+}
+
+.titulo{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;    
+    height: 50px;
+    margin-bottom: 30px;
+
+}
+
+.inputs {
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    background-color: #a2bac0;
+
+}
+
+
+.logoMagna {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    margin-top: 60px;
+}
+.item{
+    width: 360px;
+    height: 60px;
+}
+
+ion-icon {
+    background-color: rgb(255, 255, 255);
+  }
+
+.boton{
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+}
+
+.btn01{
+    margin-left: 35%;
+    margin-top: 40px;
+}

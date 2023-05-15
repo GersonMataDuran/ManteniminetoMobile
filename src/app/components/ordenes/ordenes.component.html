@@ -1,0 +1,31 @@
+<ion-toolbar>
+  <ion-item slot="start">
+      <ion-title>Sin atender</ion-title>
+  </ion-item>
+  <ion-item class="ion-justify-content-center ion-align-items-center">
+    <ion-title></ion-title>
+  </ion-item>
+    <ion-item slot="end">
+      <ion-title>Atendiendo</ion-title>
+  </ion-item>
+  <hr class="ion-margin-top black-line">
+</ion-toolbar>
+
+  <ion-list>
+    <ion-item *ngFor="let orden of listaOrdenes">
+      <ion-avatar slot="start">
+        <ion-img [src]="orden.Icono" style="width: 40px; height: 40px">          
+        </ion-img>
+      </ion-avatar>
+      <ion-label>{{orden.Linea}}</ion-label>
+
+      <ion-avatar slot="end">
+        <ion-list style="text-align: right;">
+          <ion-label class="labelCuadro">00</ion-label>
+          <ion-label class="ion-text-end">{{orden.NumOrden}}</ion-label>
+        </ion-list>
+      </ion-avatar>
+    </ion-item>
+  </ion-list>
+
+

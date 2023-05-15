@@ -1,0 +1,37 @@
+ion-header ion-toolbar {
+    --background: url("/assets/fondos/FondoHeader.png") 0 0/100% 100% no-repeat;
+    --color: white;
+  }
+  
+  .logoM {
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .tituloCorto {
+    padding: 10px;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .margenBoton{
+    margin: 1px;
+  }
+
+  .letraChica{
+    color:white;
+    font-size: 10px;
+  }
+  
+  .letraMedia{
+    color:white;
+    font-size: 12px;
+  }
+  
+  .letraGrande{
+    color:white;
+    font-size: 14px;
+  }
+

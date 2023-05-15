@@ -1,0 +1,113 @@
+.iconosLista {
+  width: 30px;
+  height: 30px;  
+  margin-right: 0px;
+  margin-bottom: 0px;
+
+}
+
+.avatarIzq{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.avatarDch{
+  width: 50px;
+  height: 45px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+.avatarDchAnt{
+  width: 70px;
+  //height: 45px;
+  margin-top: 10px;
+  // margin-left: 1px;
+}
+
+
+.renglonLista{
+  border-bottom: 2px solid white;
+}
+
+.labelCuadro{
+  border: 2px solid rgb(255, 255, 255);
+  padding: 1px;
+  font-size: 22px;
+  width: 45px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.fondoBlueHard{
+  --background: rgb(33, 76, 91);
+  border-bottom: 2px solid white;
+  height: 60px;
+}
+
+.fondoBlue{
+  --background: rgb(49, 114, 136);
+}
+
+.listaBase {
+  background: rgb(49, 114, 136);
+  padding: 0px;
+}
+
+.letraChica{
+  color:white;
+  font-size: 10px;
+}
+
+.letraMedia{
+  color:white;
+  font-size: 12px;
+}
+
+.letraGrande{
+  color:white;
+  font-size: 20px;
+}
+
+.letraFiltros{
+  color:white;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.botonF {
+  // border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: 2px;
+}
+
+
+// #container {
+//   text-align: center;
+
+//   position: absolute;
+//   left: 0;
+//   right: 0;
+//   top: 50%;
+//   transform: translateY(-50%);
+// }
+
+// #container strong {
+//   font-size: 20px;
+//   line-height: 26px;
+// }
+
+// #container p {
+//   font-size: 16px;
+//   line-height: 22px;
+
+//   color: #8c8c8c;
+
+//   margin: 0;
+// }
+
+// #container a {
+//   text-decoration: none;
+// }
+

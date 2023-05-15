@@ -1,0 +1,117 @@
+.fondoBlueHard{
+    --background: rgb(33, 76, 91);
+    border-bottom: 2px solid white;
+    height: 60px;
+  }
+
+  .fondoBlue{
+    --background: rgb(49, 114, 136);
+  }
+
+  .msjAlert{
+    color:white;
+    font-size: 10px;
+    padding: 5px;
+    width: 110px;
+    height: 70px;
+    white-space: normal;
+    margin: 0;
+  }
+
+  .letraChica{
+    color:white;
+    font-size: 10px;
+    padding: 5px;
+  }
+  
+  .letraMedia{
+    color:white;
+    font-size: 12px;
+    padding: 5px;
+  }
+  
+  .letraGrande{
+    color:white;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .letraLinea{
+    color:white;
+    font-size: 18px;
+    padding: 5px;
+    width: 200px;
+  }
+
+  .avatarLinea{
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+  }
+
+  .labelCuadro{
+    border: 2px solid rgb(255, 255, 255);
+    color:white;
+    padding: 2px;
+    font-size: 22px;
+    width: 45px;
+    height: 30px;
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+
+  .botonR {
+    width: 35px;
+    height: 35px;
+    border-radius: 0px;
+  }
+
+  .botonReturn {
+    width: 35px;
+    height: 35px;
+    border-radius: 0px;
+    margin-top: 10px;
+  }
+
+  .avatarDch{
+    width: 100px;
+    height: 30px;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding-top: 7px;
+  }
+
+  .avaterDchAlert{
+    width: 30px;
+    height: 30px;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding-top: 1px;
+  }
+
+  .ajusteItem{
+    // width: 100px;
+    height: 35px;
+  }
+
+  .listaAct {
+    background: rgb(49, 114, 136);
+    padding: 0px;
+  }
+
+  .imgAlert{
+    border-radius: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .itemRow{
+    height: 80px;
+    border-bottom: 2px solid white;
+    margin-top: 20px;
+  }
+
+  .imgLogoGreen{
+    width: 50px;
+    height: 50px;
+  }

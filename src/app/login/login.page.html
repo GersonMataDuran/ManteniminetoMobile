@@ -1,0 +1,20 @@
+<ion-content [fullscreen]="true" class="fondo">
+  <ion-grid>
+    <ion-row style="height: 100%;">
+      <ion-col size="12" class="ion-text-center" style="justify-content: center; align-items: center;">
+        <img src="assets/logos/avatar-s-11.jpg" alt="Imagen" class="logoMagna">
+      </ion-col>
+      <ion-title size="large" class="titulo ion-text-center">Aplicacion de Mantenimento</ion-title>
+      <ion-item class="item">
+        <ion-input type="text" label="Correo:" class="inputs" [(ngModel)]="correo"></ion-input>
+      </ion-item>
+      <ion-item class="item">
+        <ion-input type="text" label="Password:" class="inputs" [(ngModel)]="pass"></ion-input>
+      </ion-item>
+      <ion-buttons class="btn01" (click)="validaDatos()">
+        <ion-icon name="log-out-outline" class="boton"></ion-icon>
+      </ion-buttons>
+
+    </ion-row>
+  </ion-grid>
+</ion-content>
